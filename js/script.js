@@ -1,6 +1,7 @@
 // start coding
+// giving body and added listener 
 document.querySelector("body").addEventListener("mousemove", eyeball);
-
+// ball function 
 function eyeball() {
     const eye = document.querySelectorAll(".eye");
     eye.forEach(function(eye) {
@@ -12,3 +13,4 @@ function eyeball() {
         eye.style.transform = "rotate(" + rotation + "deg)"
     });
 }
+// end coding
